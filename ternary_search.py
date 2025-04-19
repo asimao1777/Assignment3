@@ -1,10 +1,10 @@
-def ternary_search(input_list, left, right, target):
+def ternary_search(input_list, right, left, target):
 
   """The function performs a ternary search on the given array.
   It divides the array into three parts and recursively searches for the target item,
   returning the index of the target if found, otherwise None.
  
-  @params arr: an array with the list of elements to search
+  @params input_list: an array with the list of elements to search
   @params left: an integer referring to the left index of the array
   @params right: an integer referring to the right index of the array
   @params target: an integer referring to the element to search for
