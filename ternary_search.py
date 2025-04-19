@@ -22,9 +22,9 @@ def ternary_search(input_list, target):
             mid2 = right - (right - left) // 3
             
             if input_list[mid1] == target:
-                return mid1
+                return mid1+1
             if input_list[mid2] == target:
-                return mid2
+                return mid2+1
             
             if target < input_list[mid1]:
                 return _ternary_search_helper(left, mid1 - 1)
